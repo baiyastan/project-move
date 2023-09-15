@@ -2,7 +2,11 @@ import "./App.css";
 import React from "react";
 
 function App() {
-  return <div>Frontend A2 Okurmen</div>;
+  return (
+    <div>
+      <div>hi</div>
+    </div>
+  );
 }
 
 export default App;
