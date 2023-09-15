@@ -1,0 +1,98 @@
+/*    header   start    */
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.ul-menu {
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+
+.menu {
+    margin-left: 40px;
+}
+
+.header-section {
+    width: 100%;
+    background-image: url(../image/header\ back.png);
+    height: 610px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: end;
+}
+
+.header-div {
+    width: 70%;
+    text-align: center;
+    align-items: end;
+}
+
+.header-div>p {
+    font-size: 200px;
+    color: #ffc700;
+    font-family: 'Allison', cursive;
+    margin: 0;
+}
+
+.header-div>h2 {
+    color: #fff;
+    font-size: 230px;
+    text-shadow: 0px 0px 4px #000;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.header-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-img>span {
+    color: #fff;
+    font-size: 20px;
+}
+
+/*    header   end     */
