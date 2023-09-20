@@ -1,10 +1,11 @@
 import "./App.css";
 import React from "react";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div>
-      <div>Hi</div>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,58 @@
+.Ser-container {
+    position: relative;
+    margin: 0 auto;
+    padding:0 ;
+}
+.servise {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+.ser-image {
+    left: 0;
+    width: 240px;
+    height: 260px;
+    background-color: var(--background);
+    border-radius: 8px;
+    transition: 1000ms all;
+    transform-origin: center left;
+    box-shadow: 0 5px 12px rgba(0 ,0 ,0 , 0.5);
+    outline: 1px solid var(--background);
+    overflow: hidden;
+
+}
+.ser-image img {
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.ser-image:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+ figcaption{
+    font-size: 0.5rem;
+    position: absolute;
+    height: 80px;
+    width: 160px;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(
+        to top, rgba(0,0,0.9)0%
+        rgba(0,0,0,) 100%
+    );
+    color: white;
+    left: 0px;
+    bottom: 0;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+.ser-image:hover ~ .card {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translate(22px);
+}
